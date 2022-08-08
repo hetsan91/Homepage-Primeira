@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--para inserir um código de html básico (com head e body), basta digitar html:5 e apertar tab que será inserido--> 
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>homepage</title>
+        <!--o link serve para juntar o css ou qualquer outro tipo de arquivo ao html principal. para pesquisar na própria pasta, basta digitar ./ e selecionar o documento desejado, nesse caso é o homepage.css -->
+        <link rel="stylesheet" href="./homepage.css">
+        <!--Para linkar o javascript .JS é necessário utilizar outro tipo de linkagem, nesse caso é o <script>-->
+        <script type="text/javascript" src="js/homepage.js"></script>
+    </head>
+
+    <body class="body">
+        <!--Título 1, importante para definir no css-->
+        <h1>
+            Lorem ipsum dolor sit amet 
+        </h1>
+        <!--p é paragrafo, com class, serve para marcar a classe de paragrafo e o first identica qual paragráfo é dentro da classe-->
+        <p class="paragraph first">
+            Consectetur adipiscing elit. Morbi porta vitae tortor eget rutrum. Morbi eget finibus nisl, quis auctor nisl. Proin ullamcorper at lorem et commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ornare mi quis magna iaculis fermentum. Praesent at maximus purus. Mauris interdum erat sit amet nunc gravida hendrerit. Nam tempus nisl nisl, id ultricies ante eleifend vitae. Sed et ante sit amet turpis pellentesque pharetra. Curabitur tempor eleifend egestas. Curabitur at sagittis quam, vitae molestie libero. Aliquam felis tortor, efficitur sed semper ac, posuere non est. Vivamus rutrum eros ac elit tincidunt ultricies. Etiam iaculis non nulla nec sodales.
+        </p> 
+        <!--img código para adicionar uma imagem online à página-->
+        <img src="https://super.abril.com.br/wp-content/uploads/2019/06/latim-lingua-morta.png" alt="latim-lingua-morta">
+        <!--div é uma divisão livre de sintaxe, serve para organizar os blocos do html-->
+        <div>
+            <!--Título h2, para diferenciar do H1 e não confundir no css-->
+            <h2>
+                Donec eget porta ligula
+            </h2>
+            <!--Parágrafo 2 para testar estilos e etc-->
+            <p class="paragraph second">
+                Proin blandit, tortor vitae pretium interdum, libero purus elementum arcu, sed fermentum dui dolor vitae ligula. Etiam ipsum sapien, malesuada nec mi ac, bibendum laoreet augue. Quisque suscipit sapien eu quam faucibus ornare. Aliquam erat volutpat. Aliquam eu lacus ut arcu egestas porta vel sed orci. Praesent nunc ante, molestie sit amet purus vitae, cursus semper ex. Proin ipsum turpis, porttitor sit amet lorem eget, aliquet tristique purus. Nullam lobortis enim sed magna congue, nec volutpat nunc efficitur. Phasellus ac dolor sit amet mi fermentum vulputate a quis massa. Donec tempor blandit ipsum quis pretium. Donec ornare nisl id ullamcorper suscipit. Donec eget porta ligula. Sed volutpat tellus a turpis interdum bibendum. In in nisi felis. Proin ante est, porta id lobortis sit amet, lobortis quis felis. Nam eu pulvinar urna.
+            </p>
+            <!--Img, código de imagem, é necessário pôr em Alt, um texto alternativo para leitura de cegos e etc.-->
+            <img src="https://capeiaarraiana.pt/wp-content/uploads/2020/06/afernandes_20200609_biblialatim_600x450_04.jpg" alt="livro em latim">
+            
+        </div>
+
+        <div>
+            <h3>
+                Vestibulum semper lacus Est.
+            </h3>
+
+            <p class="paragraph third">
+                Nulla tempus orci sit amet urna consequat, vitae bibendum dolor egestas. Praesent maximus semper erat sed auctor. Nunc egestas rhoncus ante in hendrerit. Proin suscipit nisl ac diam cursus, sed bibendum sapien scelerisque. Vestibulum in libero ac libero consequat faucibus quis in felis. Nullam facilisis risus in ipsum fringilla iaculis. Phasellus vitae orci vestibulum, mattis tortor eget, tempus arcu. Vestibulum semper lacus est. Vivamus quis est a augue ultrices lacinia ut sit amet urna. Nullam quis urna vitae erat commodo vehicula nec vitae velit.
+            </p>
+            
+            <!--Vídeo serve para pôr um vídeo, porém está bugando, {descobrir o porquê}-->
+            <video src=""></video>
+            
+            <!--a, é o código para inserir um link clicável, seja para o próprio domínio ou para um externo, # é utilizada enquanto não há um link definido, adicionar classe para customizar a url-->
+            <a class="link first" href="#">LINKIZINHO MAROTO</a>
+            
+            <!--Botão de volta ao topo, pus id separado com -, para que o ID seja reconhecido no css e para que fique mais fácil destacar ele no código-->
+            <button class="topo">↑</button>
+        </div>
+    </body>
+</html>

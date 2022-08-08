@@ -1,0 +1,64 @@
+/* É aqui que toda a doidera do css acontece*/
+
+/* foi selecionado o título h1 para trocar suas características font-size(tamanho), Margin (Margem) e Color que não precisa de explicação... */
+h1 {
+    font-size: 40px;
+    margin: 0 0 40;
+    color: #ECC146;
+    font-style: oblique;
+    }
+
+/* selecionado inteiramente para trocar as características. OBS dá para usar class= em títulos H tb */
+h2 {
+    font-size: 40px;
+    margin: 0 0 40;
+    color: #ECC146;
+    font-style: oblique;
+    /* serve para definir o tipo de fonte para o site*/
+    font-family: bold;
+}
+
+h3{
+    font-size: 40px;
+    margin: 0 0 40;
+    color: #ECC146;
+    font-style: oblique;
+}
+
+/* paragraph é a tag mãe utilizada nesse caso para todos, oq faz ser específico é o first 2nd e etc... após o paragraph */
+.paragraph {
+    color: #545352 ;
+    margin: 0 0 40;
+}
+
+/* primeiro parágrafo, identificado por paragraph 'second' */
+.first {
+    font-size: 22px;
+}
+
+/* segundo parágrafo, identificado por paragraph 'second' */
+.second {
+    font-size: 22px;
+}
+
+.third {
+    font-size: 22px;
+}
+
+/* COR DE BACKGROUND = adicionei a class body para poder mudar a cor de todo o fundo da pagina, basta escrever class="body" dentro de <body> */
+.body {
+    background-color: #211b22;
+}
+
+/*Link com classe"." para edição de cor devido ao fato da pagina já ter um background escuro*/
+.link {
+    color: #ECC146;
+}
+
+/* botão de voltar ao inicio css, # para dizer qual id a gnt quer modificar*/
+.topo{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-image: linear-gradient(to left, #d9ff00, #310638);
+}
